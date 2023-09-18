@@ -1,6 +1,3 @@
-use crate::errors::CalculatorError;
-
-
 #[derive(Clone, Debug, PartialEq)]
 pub enum TokenType {
     // Single-character tokens.
